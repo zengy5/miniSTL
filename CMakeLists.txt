@@ -8,3 +8,4 @@ include_directories(
 )
 
 add_executable(myVector src/myVector.cpp)
+add_executable(myList src/myList.cpp)
