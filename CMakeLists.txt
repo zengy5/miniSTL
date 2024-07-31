@@ -10,3 +10,4 @@ include_directories(
 add_executable(myVector src/myVector.cpp)
 add_executable(myList src/myList.cpp)
 add_executable(myDeque src/myDeque.cpp)
+add_executable(myHash src/myHashTable.cpp)
