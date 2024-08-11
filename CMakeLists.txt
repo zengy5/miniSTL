@@ -7,8 +7,11 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+include_directories(include)
+
 add_executable(myVector src/myVector.cpp)
 add_executable(myList src/myList.cpp)
 add_executable(myDeque src/myDeque.cpp)
 add_executable(myHash src/myHashTable.cpp)
 add_executable(myTree src/myRedBlackTree.cpp)
+add_executable(mySet src/mySet.cpp include/RedBlackTree.h)
